@@ -1,4 +1,4 @@
-import 'package:chat/screens/loading_screen.dart';
+import 'package:chat/screens/auth_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const LoadingPage(),
+      home: const AuthScreen(),
     );
   }
 }
