@@ -6,9 +6,10 @@ import 'package:chat/core/models/chat_user.dart';
 import 'package:chat/core/services/auth/auth_service.dart';
 
 class AuthDummyService implements AuthService {
+  // This user is here so I can auto login in the app to test
   static const _defaultUser = ChatUser(
-    id: '1',
-    name: 'Debug',
+    id: '456',
+    name: 'Berte',
     email: 'teste@teste.com',
     imageUrl: 'assets/images/avatar.png',
   );
