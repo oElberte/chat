@@ -10,7 +10,7 @@ class AuthDummyService implements AuthService {
   static const _defaultUser = ChatUser(
     id: '456',
     name: 'Berte',
-    email: 'teste@teste.com',
+    email: 'test@test.com',
     imageUrl: 'assets/images/avatar.png',
   );
 

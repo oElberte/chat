@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "544077674415",
+    "project_id": "berte-chat",
+    "storage_bucket": "berte-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544077674415:android:d6534b2de336474d21215a",
+        "android_client_info": {
+          "package_name": "com.elberte.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544077674415-t0tnsm9f6fjr6j2l0bmabfhs6l1th3f4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnIEsTVoLgESh02QPuxa_NBI_5D8EGKrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544077674415-t0tnsm9f6fjr6j2l0bmabfhs6l1th3f4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
