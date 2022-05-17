@@ -42,7 +42,9 @@ class _UserImagePickerState extends State<UserImagePicker> {
         CircleAvatar(
           radius: 40,
           backgroundColor: Colors.grey,
-          backgroundImage: _image != null ? FileImage(_image!) : null,
+          backgroundImage: _image != null
+              ? FileImage(_image!)
+              : AssetImage('assets/images/avatar.png') as ImageProvider<Object>,
         ),
         TextButton(
           child: Row(
