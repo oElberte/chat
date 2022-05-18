@@ -23,6 +23,7 @@ abstract class AuthService {
 
   Future<void> logout();
 
+  // Here you can change if the auth service is going to run in the memory or in the firebase
   factory AuthService() {
     // return AuthDummyService();
     return AuthFirebaseService();
